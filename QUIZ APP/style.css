@@ -1,0 +1,85 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Main Container */
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styling */
+  h1 {
+    text-align: center;
+    color: #2d87f0;
+  }
+  
+  /* Input Section */
+  .input-section {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-section input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+  
+  .input-section button {
+    padding: 10px 20px;
+    background-color: #2d87f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-section button:hover {
+    background-color: #1f6bb8;
+  }
+  
+  /* Task List Styling */
+  .task-list {
+    margin-bottom: 20px;
+  }
+  
+  #task-list-ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #task-list-ul li {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #task-list-ul li span {
+    font-weight: bold;
+  }
+  
+  /* Chart Section */
+  .chart-section {
+    margin-top: 30px;
+  }
+  
+  canvas {
+    max-width: 100%;
+    height: 300px;
+  }
+  
